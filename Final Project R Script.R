@@ -19,19 +19,19 @@ summary(controllm)
 plot( Time.to.Catch..sec.[Prey.Behavior == "Control"] ~ Number.of.Prey[Prey.Behavior == "Control"], data = data )
 abline(controllm)
 
-##Comparison of control and avoidance behavior vs. number of prey##
+##Avoidance behavior vs. number of prey##
 avoidancelm <- lm( Time.to.Catch..sec.[Prey.Behavior == "Avoidance"] ~ Number.of.Prey[Prey.Behavior == "Avoidance"], data = data )
 summary(avoidancelm)
 plot( Time.to.Catch..sec.[Prey.Behavior == "Avoidance"] ~ Number.of.Prey[Prey.Behavior == "Avoidance"], data = data )
 abline(avoidancelm)
 
-##Comparison of control and attraction behavior vs. number of prey##
+##Attraction behavior vs. number of prey##
 attractionlm <- lm( Time.to.Catch..sec.[Prey.Behavior == "Attraction"] ~ Number.of.Prey[Prey.Behavior == "Attraction"], data = data )
 summary(attractionlm)
 plot( Time.to.Catch..sec.[Prey.Behavior == "Attraction"] ~ Number.of.Prey[Prey.Behavior == "Attraction"], data = data )
 abline(attractionlm)
 
-##Comparison of control and freeze behavior vs. number of prey##
+##Freeze behavior vs. number of prey##
 freezelm <- lm( Time.to.Catch..sec.[Prey.Behavior == "Freeze"] ~ Number.of.Prey[Prey.Behavior == "Freeze"], data = data )
 summary(freezelm)
 plot( Time.to.Catch..sec.[Prey.Behavior == "Freeze"] ~ Number.of.Prey[Prey.Behavior == "Freeze"], data = data )
