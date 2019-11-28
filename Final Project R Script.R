@@ -1,5 +1,5 @@
 ## Final Statistics and Computation Project ##
-# Beaven Ankner-Edelstein 18302579 #
+# Beaven Ankner-Edelstein #
 
 ##Setup of working directory##
 setwd("C:/Users/bankn/Desktop/R/Projects/Trinity Year 2/Final Stats Project")
